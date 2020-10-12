@@ -7,10 +7,6 @@
 // of patent rights can be found in the PATENTS file in the same directory.
 // 
 
-#include "../Compiler.xcconfig"
-
-// Install
-SKIP_INSTALL = YES
-
-// Code Signing
-CODE_SIGN_IDENTITY =
+// Base xcconfig for iOS targets.
+#include "Platform/iOS.xcconfig"
+#include "Platform/Compiler.xcconfig"
